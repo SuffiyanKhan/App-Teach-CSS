@@ -1,0 +1,12 @@
+p{
+    background-image: url(./image/pexels-jessica-lewis-🦋-thepaintedsquare-583848.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
