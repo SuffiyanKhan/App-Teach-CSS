@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 60px;
+            font-size: 26px;
+            text-align: center;
+            line-height: 60px; 
+        }
+        .navbar{
+            width: 100%;
+            height: 50px;
+            background-color: aqua;
+            font-size: 26px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .section{
+            width: 100%;
+            height: 600px;
+            background-color: brown;
+            padding: 50px 50px;
+        }
+        .section .left{
+            width: 40%;
+            height: 600px;
+            float: left;
+        }
+        .section .left img{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+        .section .right{
+            width: 60%;
+            /* height: 600px; */
+            float: right;
+            padding: 150px 20px;
+            text-align: justify;
+            text-align: center;
+        }
+        .section .right h2{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 10px;
+            font-size: 36px;
+        } 
+        .section .right p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .section .right button{
+            position: relative;
+            top: 20px;
+            padding:  10px;
+            width: 120px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .card-section{
+            width: 100%;
+            height: 650px;
+            background-color: yellow;
+            display: flex;
+            justify-content: space-around;
+            padding: 100px 0 0 0;
+            
+        }
+        .card-section .heading h2{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            /* border: 2px solid; */
+            /* text-align: center; */
+            font-size: 32px;
+        }
+        .card-section .card{
+            width: 300px;
+            height: 400px;
+            border: 0.0975rem solid lightgrey;
+            background-color: white;
+            border-radius: 10px;
+
+        }
+        .card .image {
+            width: 100%;
+            height: 240px;
+        }
+        .card .image img{
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .card .card-body{
+            width: 100%;
+            padding: 10px 20px;
+        }
+        
+        .card .card-body p{
+            font-size: 25px;
+            margin-bottom: 10px;
+
+        }
+        .card .card-body button{
+            width: 100px;
+            padding: 10px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 60px;
+            font-size: 26px;
+            text-align: center;
+            line-height: 60px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Header</div>
+    <div class="navbar">Navbar</div>
+    <div class="section">
+        <div class="left">
+            <img src="./image/pexels-pixabay-39284.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2>Welcome to hamari website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iure atque temporibus, assumenda architecto laudantium doloribus natus nostrum non at nobis commodi repudiandae excepturi vero. Ullam suscipit est fugiat quaerat!</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div class="card-section">
+        <div class="card">
+            <div class="image">
+                <img src="./image/pexels-pixabay-39284.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2>Some thing</h2>
+                <p>$10</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./image/pexels-pixabay-39284.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2>Some thing</h2>
+                <p>$10</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./image/pexels-pixabay-39284.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2>Some thing</h2>
+                <p>$10</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./image/pexels-pixabay-39284.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2>Some thing</h2>
+                <p>$10</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
