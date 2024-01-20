@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            width: 100%;
+            height: 120px;
+            line-height: 120px;
+            background-color: #0766AD;
+            color: #FFF2F2;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+        header h2{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 800;
+            font-family: 'Dancing Script', cursive;
+            /* line-height: ; */
+        }
+        .cards{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            /* margin: 20px 100px; */
+            /* margin-left: 40px; */
+            /* gap: 200px; */
+        }
+        .cards .card1{
+            width: 450px;
+            height: 450px;
+            border: 2px solid;
+        }
+        .cards .card1 .image{
+            width: 100%;
+        }
+        .cards .card1 .image img{
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+        .cards .card1 .cardbody{
+            width: 100%;
+        }
+        .cards .card1 .cardbody h3{
+            font-size: 24px;
+            padding: 10px 30px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .cards .card1 .cardbody p{
+            font-size: 17px;
+            text-align: justify;
+            padding: 10px 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .cards .card1 .cardbody button{
+            margin-top: 10px;
+            padding: 8px 10px;
+            position: relative;
+            left: 150px;
+            cursor: pointer;
+        }
+    
+    </style>
+</head>
+<body>
+    <header><h2>Cards</h2></header>
+    <div class="cards">
+        <div class="card1">
+            <div class="image">
+                <img src="./images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <p>Price: $NaN</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="image">
+                <img src="./images/olena-bohovyk-ElfJDs4LAQk-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <p>Price: $NaN</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="image">
+                <img src="./images/kiran-ck-LSNJ-pltdu8-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <p>Price: $NaN</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="image">
+                <img src="./images/eniko-kis-KsLPTsYaqIQ-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <p>Price: $NaN</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="image">
+                <img src="./images/domino-164_6wVEHfI-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <p>Price: $NaN</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="image">
+                <img src="./images/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <p>Price: $NaN</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        
+        <!-- <div class="card2">
+            <div class="image">
+                <img src="./images/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="image">
+                <img src="./images/domino-164_6wVEHfI-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="image">
+                <img src="./images/eniko-kis-KsLPTsYaqIQ-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="image">
+                <img src="./images/kiran-ck-LSNJ-pltdu8-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <button>Add to Card</button>
+            </div>
+        </div>
+        <div class="card6">
+            <div class="image">
+                <img src="./images/olena-bohovyk-ElfJDs4LAQk-unsplash.jpg" alt="">
+            </div>
+            <div class="cardbody">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempore.</p>
+                <button>Add to Card</button>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>

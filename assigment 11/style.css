@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 0 100px;
+    text-decoration: none !important;
+    box-shadow: 0 0 9px;
+    position: sticky;
+    top: 0px;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+nav .logo a img{
+    height: 40px;
+    border-radius: 10px;
+}
+nav .logo a {
+    font-size: 22px;
+    text-decoration: none !important;
+    color: #d4045c;
+    font-family: 'Roboto', sans-serif;
+}
+nav .bttns{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid; */
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .bttns button{
+    padding: 8px 25px;
+    color: #d4045c;
+    font-size: 15px;
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight: 700;
+}
+nav .bttns #login{
+    border:1.5px solid #d4045c;
+    transition: all ease 0.3s;
+    background-color: white;
+}
+nav .bttns #login:hover{
+    background-color: #f5d1df;
+    transform: scale(0.9);
+}
+nav .bttns #signup{
+    color: white;
+    background-color: #d41870;
+    border:1.5px solid #d41870;
+    transition: all ease 0.3s;
+
+}
+nav .bttns #signup:hover{
+    background-color: #d4045c;
+    transform: scale(0.9);
+
+}
+nav .bttns #select{
+    color: black;
+}
+nav .bttns #icon{
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #d4045c;
+    background-color: white;
+    border: none;
+    transition: all ease 0.3s;
+
+    /* font-size: 16px; */
+    /* width: 40px; */
+    /* #f5d1df */
+}
+nav .bttns #icon:hover{
+    background-color: #fceaee;
+    transform: scale(0.9);
+
+}
+nav .bttns #select{
+    background-color: white;
+    border: none;
+    transition: all ease 0.3s;
+
+}
+nav .bttns #select:hover{
+    background-color: #fceaee;
+}
