@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 90vh;
+            background-color: aqua;
+            display: flex;
+            position: relative;
+            /* top: 100px; */
+        }
+        .container .side-bar{
+            width: 40%;
+            height: 100%;
+            background-color: yellow;
+            display: flex;
+            align-items: end;
+            flex-direction: column;
+            gap: 100px;
+            padding: 80px 20px;
+        }
+        .container .side-bar .one{
+            width: 100%;
+            display: flex;
+            gap: 20px;
+
+        }
+        .container .side-bar .one img{
+            width: 48%;
+            object-fit: cover;
+        }
+        .container .side-bar .two{
+            width: 100%;
+        }
+        .container .side-bar .two img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .container .contant{
+            width: 60%;
+            height: 100%;
+            background-color: greenyellow;
+            display: flex;
+
+        }
+        .container .contant .images{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 30px;
+
+        }
+        .container .contant .images img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .container .contant .side-contant{
+            width: 30%;
+            height: 100%;
+        }
+        .container .contant .side-contant h3{
+            position: relative;
+            top:50px;
+        }
+        .container .contant .side-contant p{
+            position: relative;
+            top:100px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div class="one">
+                <img src="./images/side-bar/istockphoto-1437990859-170667a.webp" alt="">
+                <img src="./images/side-bar/istockphoto-1486730131-170667a.webp" alt="">
+            </div>
+            <div class="two">
+                <img src="./images/side-bar/istockphoto-1546442230-170667a.webp" alt="">
+            </div>
+        </div>
+        <div class="contant">
+            <div class="images">
+                <img src="./images/side-bar/istockphoto-1437990859-170667a.webp" alt="">
+                <img src="./images/side-bar/istockphoto-1486730131-170667a.webp" alt="">
+                <img src="./images/side-bar/istockphoto-1546442230-170667a.webp" alt="">
+            </div>
+            <div class="side-contant">
+                <h3>WELCOME TO HAMARI WEB SITE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad placeat illo nobis vel. Sit sunt minima nam. Autem sed alias sint nostrum, minus nobis quis quo fuga, vero quaerat quod?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. At perspiciatis eius ipsam id nisi quas eos dolore. Qui nisi odio officia corrupti eius ut quos quidem voluptatibus, asperiores, tenetur sit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, repellendus! Beatae quae aperiam quos amet quod fugiat dicta pariatur officiis iusto, ut maiores asperiores optio culpa aliquam exercitationem molestias <eveniet class="lore"></eveniet>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
